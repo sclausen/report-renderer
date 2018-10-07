@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <div class="page">
+      <img src="./logo.svg" />
+      <h3>{{i18n "_txkey1"}}</h3>
+      <ul>
+      {{#each list}}
+        <li>{{this.name}}</li>
+      {{/each}}
+      </ul>
+      <img src="{{linechart chart}}" />
+    </div>
+  </body>
+</html>

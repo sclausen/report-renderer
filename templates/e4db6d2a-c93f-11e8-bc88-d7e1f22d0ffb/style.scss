@@ -1,0 +1,21 @@
+body {
+  font-family: Helvetica;
+  margin: 0mm;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+@page {
+  size: A4;
+}
+
+.page {
+  size: A4;
+  margin-top: 12mm;
+  margin-bottom: 15mm;
+  margin-left: 25mm;
+  margin-right: 10mm;
+}
